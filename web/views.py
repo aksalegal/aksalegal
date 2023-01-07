@@ -11,15 +11,15 @@ def pajak(request):
 
 def TenagaAhli(request):
 
-    return render(request, 'Tenaga Ahli.html')
+    return render(request, 'tenagaahli.html')
 
 def UMKMpribadi(request):
 
-    return render(request, 'UMKM Pribadi.html')
+    return render(request, 'umkmpribadi.html')
 
 def BadanUsaha(request):
 
-    return render(request, 'Badan Usaha.html')
+    return render(request, 'badanusaha.html')
 
 def error_404(request, exception):
     return render(request, '404.html')

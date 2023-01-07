@@ -30,4 +30,3 @@ urlpatterns = [
 
 ]
 
-# handler404 = 'web.views.error_404'
